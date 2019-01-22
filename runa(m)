@@ -1,0 +1,11 @@
+def runa(m):
+    #print (m,'test')
+    if m == 1:
+        print (m)
+        #return 1
+    else:
+        runa(m-1)
+        print(m*(m+1)/2)
+        #print((m/2)*(m+1))
+        #return runa(m-1)
+runa(5)
