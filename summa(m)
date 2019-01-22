@@ -1,0 +1,6 @@
+def summa(m):
+    if m == 1:
+        return 1
+    else:
+        return m**2 + summa(m-1)
+print(summa(5))
